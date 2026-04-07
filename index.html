@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Todolist</title>
+</head>
+<body>
+    <header>
+        <h2><i>TODOLIST</i></h2>
+    </header>
+    <main>
+        <div class="container-main">
+            <form class="input-container" id="todo-form">
+                <input id="todo-input" type="text" placeholder="Enter a Todo here.." required>
+                <button type="submit" id="submit-todo">Add</button>
+            </form>
+
+            <div class="list-controls">
+                <button id="delete-all">Clear All</button>
+            </div>
+
+             <div id="todo-container">
+
+            </div> 
+
+            <button id="see-more">see more</button>
+        </div>
+        <div id="conform-delete">
+
+        </div>
+    </main>
+    <script type="module" src="scripts/app.js"></script>
+</body>
+</html>
