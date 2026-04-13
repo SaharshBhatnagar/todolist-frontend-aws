@@ -2,7 +2,7 @@ const isLocalhost = window.location.hostname === 'localhost' || window.location.
 
 const API_BASE_URL = isLocalhost 
     ? 'http://localhost:5000/api/tasks' 
-    : 'http://65.2.148.150:5050/api/tasks';
+    : 'https://api.saharshbhatnagar.app/api/tasks';
 
 // GET
 async function fetchTasks() {
